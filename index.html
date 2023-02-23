@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -42,6 +43,44 @@
         <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
         <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
     </section>
+    <section class="carrossel">
+        <h2 class="carrossel__titulo">Últimos lançamentos</h2>
+        <!-- Slider main container -->
+        <div class="swiper">
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./src/img/ApacheKafka.png" alt="livro sobre apache kafka"></div>
+                <div class="swiper-slide"><img src="./src/img/Guia Front-end.png" alt="guia front-end"></div>
+                <div class="swiper-slide"><img src="./src/img/Javascript.png" alt="livro sobre JavaScript"></div>
+                <div class="swiper-slide"><img src="./src/img/Liderança.png" alt="livro sobre liderança"></div>
+                <div class="swiper-slide"><img src="./src/img/Portugol.png" alt="livro sobre portugol"></div>
+                <div class="swiper-slide"><img src="./src/img/ReactNative.svg" alt="livro sobre react native"></div>
+                <div class="swiper-slide"><img src="./src/img/Nodejs.svg" alt="livro sobre Nodejs"></div>
+                <div class="swiper-slide"><img src="./src/img/Tuning.svg" alt="livro sobre tunning de sql"></div>
+                <div class="swiper-slide"><img src="./src/img/Gestão.svg" alt="livro sobre gestão"></div>
+                <div class="swiper-slide"><img src="./src/img/Acessibilidade.svg" alt="livro sobre acessibilidade"></div>
+                ...
+            </div>
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 10,
+            slidesPerView: 3,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+        });
+    </script>
 </body>
 
 </html>
