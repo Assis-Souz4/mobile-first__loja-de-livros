@@ -1,0 +1,14 @@
+@import url(./styles/header.css);
+
+/* VARIAVEIS */
+:root {
+  --cor-de-fundo: #ebecee;
+  --branco: #fff;
+}
+/* ############## */
+body {
+  background-color: var(--cor-de-fundo);
+}
+h1 {
+  background-color: aliceblue;
+}
