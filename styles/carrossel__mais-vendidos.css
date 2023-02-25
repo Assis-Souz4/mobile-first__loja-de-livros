@@ -11,7 +11,8 @@
 .autor__info {
   display: flex;
   flex-direction: column;
-  gap: 1em;
+  gap: 0.5em;
+  padding: 0 1em;
 }
 .autor__mes {
   font-weight: 700;
