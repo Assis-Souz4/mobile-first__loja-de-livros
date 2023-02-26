@@ -1,0 +1,33 @@
+.rodape {
+  background-color: var(--branco);
+  padding: 1em 0 0 0;
+  border-top: 1px solid #858585;
+}
+.redes-sociais{
+    display: flex;
+    justify-content: end;
+    gap: 1em;
+    padding: 1em 0;
+    text-transform: none;
+}
+.rodape__back{
+    background: var(--azul-degrade);
+    text-align: center;
+    padding: .5em 0;
+    width: 100%;
+    height: 100%;
+    
+}
+.rodape__informacoes {
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    color: var(--branco);
+  }
+  .dev-web{
+    color: var(--branco);
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    margin: 0 auto;
+  }
