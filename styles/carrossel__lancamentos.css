@@ -74,6 +74,8 @@
   }
   .swiper {
     width: 60%;
+    padding: 0 8em;
+
   }
   .swiper-wrapper {
     margin: 1em 0 1.5em 0;
@@ -82,5 +84,13 @@
   .swiper-button-next {
     display: block;
     top: 60%;
+  }
+  .card{
+    width: 586px;
+    margin: 0 auto;
+    margin: 3em auto;
+  }
+  .botoes__ancora{
+    padding: 1em 2.2em;
   }
 }

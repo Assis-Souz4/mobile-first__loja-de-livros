@@ -39,3 +39,10 @@
   text-decoration: none;
   margin: 0.5em 0;
 }
+/* media query min-width:1024 */
+@media screen and (min-width: 1024px) {
+  .autor__container {
+    width: 586px;
+    margin: 3em auto;
+  }
+}
