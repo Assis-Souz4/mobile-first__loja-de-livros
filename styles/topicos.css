@@ -25,3 +25,16 @@
   font-size: 14px;
   line-height: 21px;
 }
+@media screen and (min-width: 1024px) {
+  .topicos__lista {
+    justify-content: center;
+    display: grid;
+    grid-template-columns: auto auto auto;
+  }
+  .topicos__item {
+    background-color: var(--laranja);
+    padding: 24px 32px;
+    margin: 1em 0.5em;
+    text-align: center;
+  }
+}

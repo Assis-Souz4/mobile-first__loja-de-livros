@@ -39,3 +39,19 @@
   background-repeat: no-repeat;
   background-position: 1em;
 }
+@media screen and (min-width: 1024px) {
+  .contato {
+    background-color: var(--branco);
+    padding: 2em 15em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .contato__titulo {
+    font-size: 24px;
+  }
+  .contato___cadastrar-email{
+        width:100%;
+        padding:2em;
+        margin: 0 auto;
+  }
+}
