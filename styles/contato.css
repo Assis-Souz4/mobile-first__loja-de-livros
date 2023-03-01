@@ -39,6 +39,7 @@
   background-repeat: no-repeat;
   background-position: 1em;
 }
+
 @media screen and (min-width: 1024px) {
   .contato {
     background-color: var(--branco);
